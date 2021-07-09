@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 //setup mongodb connection
-const mongoDB = 'mongodb+srv://rb:xvok@todo.xosmj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const mongoDB = 'mongodb+srv://??:???????k@todo.xosmj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 mongoose.connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true});
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error'));
